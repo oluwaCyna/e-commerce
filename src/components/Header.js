@@ -8,6 +8,7 @@ import Fashion from './Fashion'
 import Blog from './Blog'
 import Contact from './Contact'
 import HeroSection from './common/HeroSection';
+import Cart from './Cart';
 
 const Header = () => {
   return (
@@ -22,6 +23,7 @@ const Header = () => {
           <Route path='/fashion' element={<Fashion />}></Route>
           <Route path='/blog' element={<Blog />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/cart' element={<Cart />}></Route>
         </Routes>  
     </div>
     </BrowserRouter>
