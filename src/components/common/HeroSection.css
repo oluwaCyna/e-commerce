@@ -1,0 +1,9 @@
+.hero-section {
+    position: relative;
+}
+.header-title {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}

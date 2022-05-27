@@ -1,0 +1,15 @@
+.navs {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6A6C;
+}
+.navs-link {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    color: white;
+    padding: 0 30px;
+    text-decoration: none;
+}

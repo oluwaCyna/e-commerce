@@ -1,0 +1,28 @@
+.blog-template {
+    display: flex;
+    gap: 20px;
+    padding: 50px 0;
+}
+.blog-post {
+    gap: 10px;
+}
+
+.blog-post-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.blog-widget {
+    flex: 70%;
+}
+.tag-btn {
+    gap: 10px;
+}
+.recent-post-card {
+    display: flex;
+    gap: 10px;
+    /* justify-content: ; */
+    align-items: center;
+}

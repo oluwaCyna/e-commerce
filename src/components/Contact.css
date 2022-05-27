@@ -1,0 +1,28 @@
+.contact-part-2 {
+    background-color: gray;
+    height: 400px;
+}
+.comment {
+    width: 75%;
+    height: 200px;
+}
+.btn-outline {
+    border: 1px solid #FF6A6C !important;
+    color: #FF6A6C !important;
+}
+.contact-part-3 {
+    display: flex;
+    gap: 30px;
+}
+.form-wrapper {
+    flex: 70%;
+}
+.details {
+    flex: 30%;
+}
+.details-flex{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: baseline;
+}
