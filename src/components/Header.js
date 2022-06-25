@@ -9,6 +9,8 @@ import Blog from './Blog'
 import Contact from './Contact'
 import HeroSection from './common/HeroSection';
 import Cart from './Cart';
+import Products from '../Products';
+import SingleProductPage from './product-components/SingleProductPage';
 
 const Header = () => {
   return (
@@ -21,9 +23,12 @@ const Header = () => {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/fashion' element={<Fashion />}></Route>
+          <Route path='/products' element={<Products />}></Route>
+          <Route path='/product-components/SingleProductPage' element={<SingleProductPage />}></Route>
           <Route path='/blog' element={<Blog />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/cart' element={<Cart />}></Route>
+          <Route path='/productpage' element={<SingleProductPage />}></Route>
         </Routes>  
     </div>
     </BrowserRouter>

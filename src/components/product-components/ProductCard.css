@@ -1,0 +1,31 @@
+.product-div {
+    width: 200px;
+    height: 420px;
+    position: relative;
+    border: 1px dashed #FF6A6C;
+    margin-bottom: 15px;
+}
+.product-div:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px inset;
+}
+.product-tag {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    border-radius: 0 !important;
+}
+.product-price {
+    color: #FF6A6C;
+}
+.add-to-cart {
+    background-color: #FF6A6C !important;
+    color: white !important;
+}
+.color {
+    background-color: #FF6A6C ;
+    color: white;
+}
+.height {
+    height: 80px;
+}
+
